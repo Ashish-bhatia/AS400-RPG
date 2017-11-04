@@ -1,0 +1,45 @@
+RPG Stands for  Report Program Generator Language. It is a language used to develop application on IBM AS400 systems. 
+
+Now a days RPG can be written as Position Oriented and Free-format language.  
+
+Position oriented means —> Info like opcode and fields names must be written at specific positions.  If you not do so  you will get an error. 
+
+Free Format -> info like opcode and fields names can be written anywhere on the code editor no fix positions.
+
+Free format initially supported in calculation spec. But now a days you can specify free format file declarations. 
+
+
+While writing program in RPG we need to learn syntax of the language. RPG supports 7 type of specifications. Specifications specify what to write where.  Following is a list of Specifications. 
+
+Header Specifications
+File Specifications
+Definitions Specifications
+Input Specifications
+Calculation Specifications
+Output Specifications
+Procedure Specifications
+
+
+A thorough knowledge of various specifications types and their layout will greatly improve programmer efficiency.
+
+
+
+
+
+Position Oriented Program Specifications : 
+
+As specified before there are 7 specifications which we need to keep in mind while writing RPG programs.
+
+When we write position oriented program it is basically 80 position which we can write. In this first five will be used for serial number or code line number. 6th position is the char where we specify the specifications we are using. 
+
+6th position can take different values : 
+
+H — Header or Control Specifications
+F — File specification or F - Spec
+D — Definitions or D - Spec
+I — Input Specification or I - Spec
+C — Calculation or C- Spec
+O — Output or O - Spec
+P — Procedure or P - Spec
+
+HFDICOP  (HiFi Di and she is a COP)  <<mnemonic>>
